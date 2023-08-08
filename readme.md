@@ -33,3 +33,8 @@ If you use this code for publication, please cite the original paper.
 	journal = {bioRxiv}
 }
 ```
+
+## Contact
+For help or issues using this codebase, please submit a GitHub issue.
+
+For personal communication related to this codebase, please contact Md. Toufikuzzaman (md.toufikzaman@gmail.com).
