@@ -13,10 +13,23 @@ CRISPR-DIPOFF is an Interpretable Deep Learning Approach for CRISPR Cas-9 Off-Ta
 * notebook 6.4.8
 ### Prediction with LSTM Model
 1. Put the input file in `Sample Input` directory 
-2. Follow the input format of `Sample Input\sample_input.csv`.
+2. Follow the input format of `Sample Input/sample_input.csv`.
 3. Run the notebook `Predict with LSTM Model.ipynb`. 
 ### Prediction with Finetuned ELECTRA Model
-Will be published soon
+Experiments are ongoing. Will be published soon.
+
+## Experiments
+### RNN-Based Experiments with Genetic Algorithm
+Data available in `RNN Experiments/Data/Sequence`
+Scripts available in `RNN Experiments`
+Steps:
+1. Run Preprocessing Script `RNN Experiments/Preprocessing.ipynb`
+2. Run Genetic Algorithm `RNN Experiments/Genetic_Algorithm_RNNs V3.ipynb`
+3. Run Model Interpretation `RNN Experiments/BEST_Model_Interpretation.ipynb`
+4. Run Interpretation Visualizer `RNN Experiments/Data Analysis.ipynb`
+
+### ELECTRA-Based Experiments
+Experiments are ongoing. Will be published soon.
 
 ## Citation
 If you use this code for publication, please cite the original paper.
