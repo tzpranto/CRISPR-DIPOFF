@@ -1,7 +1,7 @@
 # CRISPR-DIPOFF (Deep Interpretable Predictors for OFF-targets)
 ## Introduction
 CRISPR-DIPOFF is an Interpretable Deep Learning Approach for CRISPR Cas-9 Off-Target Prediction. It has outperformed the previous studies by a significant margin.
-The related paper can be found [here] (https://www.biorxiv.org/content/10.1101/2023.08.05.552139v1.full.pdf).
+The related paper can be found [here](https://www.biorxiv.org/content/10.1101/2023.08.05.552139v1.full.pdf).
 ## Released Models
 1. LSTM model trained with 4-channel encoding
 2. Finetuned ELECTRA model (Will be published soon)
