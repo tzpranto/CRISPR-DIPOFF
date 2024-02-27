@@ -1,7 +1,7 @@
 # CRISPR-DIPOFF (Deep Interpretable Predictors for OFF-targets)
 ## Introduction
 CRISPR-DIPOFF is an Interpretable Deep Learning Approach for CRISPR Cas-9 Off-Target Prediction. It has outperformed the previous studies by a significant margin.
-The related paper can be found [here](https://www.biorxiv.org/content/10.1101/2023.08.05.552139v1.full.pdf).
+The related paper can be found [here](https://academic.oup.com/bib/article-pdf/25/2/bbad530/56625790/bbad530.pdf).
 ## Released Models
 1. LSTM model trained with 4-channel encoding
 2. Finetuned ELECTRA model (Will be published soon)
@@ -35,16 +35,15 @@ Experiments are ongoing. Will be published soon.
 ## Citation
 If you use this code for publication, please cite the original paper.
 ```
-@article {Toufikuzzaman-crispr2023,
-	author = {Md. Toufikuzzaman and Md Abul Hassan Samee and M. Sohel Rahman},
-	title = {CRISPR-DIPOFF: An Interpretable Deep Learning Approach for CRISPR Cas-9 Off-Target Prediction},
-	elocation-id = {2023.08.05.552139},
-	year = {2023},
-	doi = {10.1101/2023.08.05.552139},
-	publisher = {Cold Spring Harbor Laboratory},
-	URL = {https://www.biorxiv.org/content/early/2023/08/06/2023.08.05.552139},
-	eprint = {https://www.biorxiv.org/content/early/2023/08/06/2023.08.05.552139.full.pdf},
-	journal = {bioRxiv}
+@article{toufikuzzaman2024crispr,
+  title={CRISPR-DIPOFF: an interpretable deep learning approach for CRISPR Cas-9 off-target prediction},
+  author={Toufikuzzaman, Md and Hassan Samee, Md Abul and Sohel Rahman, M},
+  journal={Briefings in Bioinformatics},
+  volume={25},
+  number={2},
+  pages={bbad530},
+  year={2024},
+  publisher={Oxford University Press}
 }
 ```
 
